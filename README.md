@@ -1,25 +1,55 @@
-# Telegram Echo Bot
+Telegram Echo Bot
 
-A simple educational project implementing a basic Telegram bot using Python.  
-This repository demonstrates the structure of a minimal bot project and the fundamentals of working with the Telegram Bot API.
+Учебный проект, реализующий базового Telegram-бота на Python.
+Репозиторий демонстрирует структуру минимального проекта и основные принципы работы с Telegram Bot API.
 
----
+📌 Функциональность
 
-## 📌 Features
-- `/start` — sends a welcome message  
-- `/help` — provides brief instructions  
-- Echo mode — the bot replies with the same text it receives  
+/start — отправляет приветственное сообщение
 
----
+/help — выводит краткую справку
 
-## 🛠 Technologies Used
-- **Python 3**
-- **python-telegram-bot** — interaction with Telegram API  
-- **python-dotenv** — secure environment variable handling  
+Эхо-режим — бот повторяет любое полученное текстовое сообщение
 
----
+🛠 Используемые технологии
 
-## 🚀 Running the Project Locally
+Python 3
 
-1. **Create a `.env` file** in the project directory:
+python-telegram-bot — взаимодействие с Telegram API
 
+python-dotenv — работа с переменными окружения и скрытым токеном
+
+🚀 Запуск проекта локально
+
+Создайте файл .env в корневой директории проекта:
+
+BOT_TOKEN=ваш_токен_бота
+
+
+Установите зависимости:
+
+pip install -r requirements.txt
+
+
+Запустите бота:
+
+python bot.py
+
+📂 Структура проекта
+telegram-echo-bot/
+│── bot.py
+│── requirements.txt
+│── .gitignore
+└── README.md
+
+🎯 Цель проекта
+
+Данный проект создан для практики в следующих областях:
+
+работа с API
+
+построение простых Python-приложений
+
+использование переменных окружения
+
+управление проектом через Git и GitHub
